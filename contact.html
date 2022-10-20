@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>PMHSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="gallery.html">IMAGE GALLERY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars " onclick="showmenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+    <!--------contact us------->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15659.16613419675!2d77.3209443!3d11.128898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9071bfc9d4a69%3A0xdd3378818ef7b64f!2sPrema%20Matriculation%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1665571640547!5m2!1sen!2sin"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="cont-us">
+        <div class="rows">
+            <div class="contact-col">
+                <i class="fa-solid fa-school"></i>
+                <span>
+                    <h5>PREMA MATRICULATION HIGHER SECONDARY SCHOOL</h5>
+                    <P>COLLEGE ROAD TIRUPPUR - 641603</P>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5> +0421 987654 </h5>
+                    <P>MONDAY TO SATURDAY - 10AM TO 4PM</P>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info@premaschool.com</h5>
+                    <P>EMAIL US YOUR QUERY</P>
+                </span>
+            </div>
+    </section>
+    <section class="ex-btn">
+        <a href="index.html" class="red-btn">HOME</a>
+    </section>
+
+    <!---FOOTER----->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>iodjfrsirdfbr vneriuren unfriunfi erjfifn jenfirn jnfin nfin ufniu iunfnfenf<br>
+            iuervuy erfiuhfr iunfiue niunri iriureiun yhfr<br>uirfifb bfufy iybfuybu ife <br> </p>
+        <div class="icons">
+            <a href="https://ruban-encodes.github.io/Prema-School/"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.facebook.com/people/Prema-matriculation-hr-secondary-school-tirupur/100065598005299/"><i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://maps.app.goo.gl/YE6T396g94RpueQW8"><i class="fa-solid fa-location-dot"></i></a>
+        </div>
+        <a href="https://ruban-encodes.github.io/Ruban-Movie-Encodes/" target="_blank">
+            <p> BY <i class="fa-sharp fa-solid fa-fire"></i> RUBAN 2022 BATCH <i class="fa-sharp fa-solid fa-fire"></i>
+            </p>
+        </a>
+    </section>
+
+
+
+    <!--------JAVASCRIPT FOR TOGGLE MENU------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+
+    </script>
+
+</body>
+
+</html>
